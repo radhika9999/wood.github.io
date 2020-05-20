@@ -1,0 +1,113 @@
+*{box-sizing: border-box;}
+
+
+body{
+	background-image: url(https://image.freepik.com/free-photo/wood-background-color-desk_19-124529.jpg)
+}
+header{
+	color: #2b1d0e;
+	font: sans-serif;
+	font-size: 2vw;
+	text-align: left;
+}
+
+.nav{
+	float: left;
+	width: 30%;
+	
+	padding: 2%;
+}
+
+.nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+article{
+	float: right;
+	padding: 2%;
+	width: 70%;
+	
+}
+
+section:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+img{
+	display: block;
+	position: relative;
+	margin-top: 2%;
+	width: 40%;
+	height: 40%;
+	border-radius: 5%;
+}
+
+p{
+    margin-top: 20px;
+	font-size: 2vw;
+	font:times;
+	color: black;
+	padding: 5px;
+}
+.nav a:link,.nav a:visited{
+background-color: #2b1d0e;
+color:white;
+padding: 1%;
+text-align: centre;
+text-decoration: none;
+display: inline-block;
+
+}
+.nav a:hover, a:active{
+	color:orange;
+}
+.nav li{
+	font-size:15px;
+}
+.fa{
+	font-size: 30px;
+	padding: 20px;
+	width: 50px;
+	border-radius: 30%;
+	text-align: center;
+
+	text-decoration:none;
+	margin:5px 2px;
+
+
+}
+.fa hover:{opacity: 0.7;}
+.fa-facebook{
+	background:#3B5998;color: white;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;}
+.footer{position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   color: white;
+  }
+ .footer span{text-align: right;}
+button
+ {
+ 	margin-top: -500px;
+ 	margin-left: 5px;
+ }
+    
+    
+
